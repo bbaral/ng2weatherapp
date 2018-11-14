@@ -1,0 +1,23 @@
+<mat-toolbar  color="primary">
+  <div class="icon" >
+    <mat-icon>wb_sunny</mat-icon>
+  </div>
+  <div class="WF" fxHide.xs>
+    <a routerLink="/">Weather Forecast</a>
+  </div>
+  <div class="weather weather-search-box" fxFlex fxLayout fxLayoutAlign="flex-end" >
+  <mat-form-field class="example-full-width">
+    <input matInput>
+  </mat-form-field>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="10px" class="navigation-items">
+      <li>
+        <a routerLink="/home">Home</a>
+      </li>
+      <li>
+        <a routerLink="/forecast">Forecast</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
